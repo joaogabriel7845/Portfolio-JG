@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm"
 function ContactMe() {
     return (
         <div id="contactMe" className="w-full section-padding scroll-mt-30">
-            
+
             <div className="border-t border-black/15 pt-10 mt-10">
                 <div className="flex flex-col gap-10 p-5 md:p-10 ">
 
@@ -16,18 +16,18 @@ function ContactMe() {
                         Precisa de uma landing page ou um site moderno para o seu projeto?
                     </p>
 
-                    <div className="flex justify-center gap-2">
+                    <div className="flex justify-center p-2 gap-2">
                         <a className="transition-all p-4 flex justify-center items-center gap-2 rounded-4xl bg-[#212830] border border-black/40 text-white hover:-translate-y-1 " href="https://github.com/joaogabriel7845" target="_blank">
                             <FontAwesomeIcon className="text-xl" icon={faGithub}/>
-                            <p className="font-[Montserrat] font-medium">GitHub</p>
+                            <p className="hidden md:block font-[Montserrat] font-medium">GitHub</p>
                         </a>
                         <a className="transition-all w-fit p-4 flex justify-center items-center gap-2 rounded-4xl bg-[#212830] border border-black/40 text-white hover:-translate-y-1 " href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-743999342/" target="_blank">
                             <FontAwesomeIcon className="text-xl" icon={faLinkedin}/>
-                            <p className="font-[Montserrat] font-medium">Linkedln</p>
+                            <p className="hidden md:block font-[Montserrat] font-medium">Linkedln</p>
                         </a>
                         <a className="transition-all w-fit p-4 flex justify-center items-center gap-2 rounded-4xl bg-[#212830] border border-black/40 text-white hover:-translate-y-1 " href="mailto:joaogabriel8182@gmail.com" target="_blank">
                             <FontAwesomeIcon className="text-xl" icon={faEnvelope}/>
-                            <p className="font-[Montserrat] font-medium">Email</p>
+                            <p className="hidden md:block font-[Montserrat] font-medium">Email</p>
                         </a>
                         
                     </div>

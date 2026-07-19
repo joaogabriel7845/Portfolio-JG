@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <div className="w-screen z-50 p-10 fixed bg-white shadow ">
+        <div className="w-screen z-50 p-6 md:p-10 fixed bg-white shadow ">
             
             <div className="flex justify-between">
 
