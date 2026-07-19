@@ -16,17 +16,17 @@ function ContactMe() {
                         Precisa de uma landing page ou um site moderno para o seu projeto?
                     </p>
 
-                    <div className="flex justify-center p-2 gap-2">
-                        <a className="transition-all p-4 flex justify-center items-center gap-2 rounded-4xl bg-[#212830] border border-black/40 text-white hover:-translate-y-1 " href="https://github.com/joaogabriel7845" target="_blank">
-                            <FontAwesomeIcon className="text-xl" icon={faGithub}/>
+                    <div className="flex justify-center p-2 gap-3 px-2">
+                        <a className="transition-all p-4 py-4.5 flex justify-center items-center gap-2 rounded-full bg-[#212830] border border-black/40 text-white hover:-translate-y-1 " href="https://github.com/joaogabriel7845" target="_blank">
+                            <FontAwesomeIcon className="text-2xl" icon={faGithub}/>
                             <p className="hidden md:block font-[Montserrat] font-medium">GitHub</p>
                         </a>
-                        <a className="transition-all w-fit p-4 flex justify-center items-center gap-2 rounded-4xl bg-[#212830] border border-black/40 text-white hover:-translate-y-1 " href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-743999342/" target="_blank">
-                            <FontAwesomeIcon className="text-xl" icon={faLinkedin}/>
+                        <a className="transition-all w-fit p-4 py-4.5 flex justify-center items-center gap-2 rounded-full bg-[#212830] border border-black/40 text-white hover:-translate-y-1 " href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-743999342/" target="_blank">
+                            <FontAwesomeIcon className="text-2xl" icon={faLinkedin}/>
                             <p className="hidden md:block font-[Montserrat] font-medium">Linkedln</p>
                         </a>
-                        <a className="transition-all w-fit p-4 flex justify-center items-center gap-2 rounded-4xl bg-[#212830] border border-black/40 text-white hover:-translate-y-1 " href="mailto:joaogabriel8182@gmail.com" target="_blank">
-                            <FontAwesomeIcon className="text-xl" icon={faEnvelope}/>
+                        <a className="transition-all w-fit p-4 py-4.5 flex justify-center items-center gap-2 rounded-full bg-[#212830] border border-black/40 text-white hover:-translate-y-1 " href="mailto:joaogabriel8182@gmail.com" target="_blank">
+                            <FontAwesomeIcon className="text-2xl" icon={faEnvelope}/>
                             <p className="hidden md:block font-[Montserrat] font-medium">Email</p>
                         </a>
                         
@@ -35,7 +35,7 @@ function ContactMe() {
                 </div>
             </div>
 
-            <div className="flex items-center gap-4 my-8">
+            <div className="flex items-center gap-4 py-4.5 my-8">
                 <div className="h-px flex-1 bg-black/15"></div>
 
                 <span className="text-black/50">

@@ -6,7 +6,7 @@ function StackGrid({ title, items }) {
             </h2>
             <div className="flex flex-wrap justify-center gap-5">
                 {items.map((item) => (
-                    <div key={item.name} className={`w-full md:w-[calc(50%-10px)] xl:w-[calc(25%-15px)] ${item.bg} border border-black/20 shadow-md px-5 py-4 rounded-2xl transition-all duration-300 hover:-translate-y-1  hover:scale-[1.02]  hover:shadow-2xl `}>
+                    <div key={item.name} className={`w-full md:w-[calc(50%-10px)] xl:w-[calc(25%-15px)] ${item.bg} border border-black/20 shadow-md px-5 py-4 rounded-2xl transition-all duration- hover:-translate-y-1  hover:scale-[1.02]  hover:shadow-2xl `}>
                         <div className="flex items-center gap-2">
                             <i className={`${item.icon} ${item.name === "GitHub" || item.name === "Framer" ? "text-white" : ""}  text-4xl`}></i>
                             <p className="text-white font-medium font-[Montserrat]">{item.name}</p>
