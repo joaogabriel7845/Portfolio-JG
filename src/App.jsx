@@ -4,7 +4,7 @@ import Projects from "./components/Projects"
 import AnimatedSection from "./components/AnimatedSection"
 import Stack from "./components/Stack"
 import ContactMe from "./components/ContactMe"
-import ShortPhrase from "./components/ShortPhrase"
+import WhatIDo from "./components/WhatIDo"
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Hero />
 
       <AnimatedSection>
-        <ShortPhrase />
+        <WhatIDo />
       </AnimatedSection>
 
       <AnimatedSection>

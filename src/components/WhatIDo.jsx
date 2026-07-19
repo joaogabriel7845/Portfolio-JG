@@ -1,6 +1,6 @@
 import Title from "./Title"
 
-function ShortPhrase() {
+function WhatIDo() {
     return (
         <div className="flex flex-col justify-center gap-5 px-5 py-10 md:px-10 md:py-16">
             <div className="flex flex-col gap-10 section-padding">
@@ -15,4 +15,4 @@ function ShortPhrase() {
     )
 }
 
-export default ShortPhrase
+export default WhatIDo
