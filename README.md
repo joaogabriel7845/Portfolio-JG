@@ -1,16 +1,44 @@
-# React + Vite
+# 👨‍💻 Portfólio — João Gabriel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido em React, apresentando meus projetos, stack e informações de contato.
 
-Currently, two official plugins are available:
+## 🔗 Acesse
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[joaogabriel-dev.vercel.app](https://joaogabriel-dev.vercel.app/) <!-- substitua pela URL final -->
 
-## React Compiler
+## 🚀 Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Font Awesome](https://fontawesome.com/)
+- [Devicon](https://devicon.dev/)
+- [Formspree](https://formspree.io/)
 
-## Expanding the ESLint configuration
+## 📋 Seções
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Hero** — Apresentação com foto e links de navegação
+- **O que eu faço** — Descrição rápida do que ofereço
+- **Projetos** — Cards dos projetos com stack, descrição e link
+- **Stack** — Tecnologias e ferramentas que utilizo
+- **Contato** — Formulário integrado com Formspree para envio de email
+
+## ⚙️ Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/joaogabriel7845/Portfolio-JG
+
+# Instale as dependências
+npm install
+
+# Rode o servidor de desenvolvimento
+npm run dev
+```
+
+## 👨‍💻 Autor
+
+**João Gabriel** — Desenvolvedor Front-end
+
+[![GitHub](https://img.shields.io/badge/GitHub-joaogabriel7845-181717?style=flat&logo=github)](https://github.com/joaogabriel7845)
